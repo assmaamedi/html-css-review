@@ -1,0 +1,27 @@
+html {
+   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+
+.banner {
+   background-color: black;
+   color: white;
+   font-family: 'Nunito', sans-serif;
+}
+
+.main {
+   width:100%;
+   padding:3em 0px 20em 0px;
+   background-image: url("../images/ice-cream-cones.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: white;
+   font-family: 'roboto', sans-serif;
+   text-shadow: 2px 2px 4px rgb(114, 106, 106);
+   text-align: center;
+   text-transform: uppercase;
+  }
