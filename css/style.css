@@ -6,22 +6,60 @@ html {
    box-sizing: inherit;
 }
 
+.wrapper {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body {
+   font-family: 'Nunito', sans-serif;
+   color: #fff;
+   line-height: 1.5;
+}
+
 .banner {
    background-color: black;
    color: white;
    font-family: 'Nunito', sans-serif;
 }
 
-.main {
+.banner ul {
+   list-style: none;
+   text-align: right;
+   margin: 0;
+}
+
+.title {
    width:100%;
-   padding:3em 0px 20em 0px;
+   padding:3em 0em 5em 0em;
    background-image: url("../images/ice-cream-cones.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   color: white;
-   font-family: 'roboto', sans-serif;
+   color: #fff;
+   font-family: 'Wix Madefor Display', sans-serif;
    text-shadow: 2px 2px 4px rgb(114, 106, 106);
    text-align: center;
    text-transform: uppercase;
+   font-size: 25px;
   }
+
+.welcome {
+   background-color: #6647A6;
+}
+
+.top-5-fan-favourites {
+   background-color: black;
+}
+
+.meet-our-team {
+   background-color: #6647A6;
+   text-align: center;
+}
+
+.meet-our-team img{
+   filter: grayscale();
+   width: 100px;
+   border-radius: 50%;
+}
