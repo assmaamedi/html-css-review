@@ -6,43 +6,50 @@ html {
    box-sizing: inherit;
 }
 
-.wrapper {
-   max-width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
-}
-
 body {
    font-family: 'Nunito', sans-serif;
    color: #fff;
    line-height: 1.5;
-}
-
-.banner {
-   background-color: black;
-   color: white;
-   font-family: 'Nunito', sans-serif;
-}
-
-.banner ul {
-   list-style: none;
-   text-align: right;
    margin: 0;
+}
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/* headings - come back to next class */
+
+.header {
+   background-color: black;
+}
+
+#company-name {
+   color: #DEC9E9;
+   font-size: 1.5rem;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+   color: #DEC9E9;
+   text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+   color: #fff;
 }
 
 .title {
-   width:100%;
-   padding:3em 0em 5em 0em;
-   background-image: url("../images/ice-cream-cones.jpg");
+   height: 60vh;
+   background-color: #7251b5;
+   background-image: url(../images/ice-cream-cones.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center;
-   color: #fff;
-   font-family: 'Wix Madefor Display', sans-serif;
-   text-shadow: 2px 2px 4px rgb(114, 106, 106);
-   text-align: center;
-   text-transform: uppercase;
-   font-size: 25px;
+   background-position: center center;
   }
 
 .welcome {
