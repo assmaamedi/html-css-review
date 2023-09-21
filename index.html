@@ -10,41 +10,42 @@
   <link rel="stylesheet" href="css/style.css"/>
   <title>HTML & CSS Review</title>
 </head>
-<body>
 
-  <div class="wrapper">
-    <div class="header">
-      <header role="banner">
-        <span id="company-name">Scoopalicious</span> 
+<body>
+  <header id="header" role="header">
+    <div class="wrapper">
+
+        <span id="company-name">Scoopalicious</span>
 
         <nav role="navigation">
           <ul>
-            <li><a href="#">Flavours</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Shop online</a></li>
+            <li><a href="#" aria-label="Flavours">Flavours</a></li>
+            <li><a href="#" aria-label="Locations">Locations</a></li>
+            <li><a href="#" aria-label="Shop online">Shop online</a></li>
           </ul>
         </nav>
-      </header>
+        
     </div>
-  </div>
+  </header>
 
-  <div class="wrapper">
-    <div class="title">
-      <main role="main">
-      <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
-      <h1>Scoopalicious</h1>
-    </div>
+  <main role="main">
 
-    <div class="welcome"> 
+   <section id="hero-banner">
+     <div class="wrapper">
+     <h1>SCOOPALICIOUS</h1>
+    </section>
+
+    <section id="scoopalicious">
+      <div class="wrapper">
       <h2>Welcome to Scoopalicious!</h2>
-
       <p>Serving the finest vegan ice cream in town, we specialize in crafting dairy-free delights that will send your taste buds into overdrive. From the moment you step inside our cozy urban shop, you'll know you're in for a treat!</p>
-    </div>
-  </div>
+      </div>
+    </section>
 
-  <div class="wrapper">
-    <div class="top-5-fan-favourites">
-      <h2>Top 5 Fan Favourites</h2>
+    <section id="fan-favourites">
+      <div class="wrapper">
+        <h2>Top 5 Fan Favourites</h2>
+
         <ol>
           <li>
             <h3>Choco-Obsession</h3>
@@ -65,62 +66,58 @@
             <h3>Peanut Butter Paradise</h3>
             <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
           </li>
-          
+
           <li>
-            <h3>Mango Tango Sorbet</h3>    
+            <h3>Mango Tango Sorbet</h3>
             <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
           </li>
         </ol>
-    </div>
-  </div>
+        
+      </div>
+    </section>
+
+    <section id="our-team">
+      <div class="wrapper">
+
+        <h2>Meet Our Team</h2>
+        <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
+
+          <div class="team-grid">
+            <article> 
+              <img src="images/sophia-lee.jpg" alt="Profile Picture of Sophia Lee">
+              <h3>SOPHIA LEE</h3>
+              <h4>Founder & Flavour Guru</h4>
+            </article>
+
+            <article>
+              <img src="images/henry-chen.jpg" alt="Profile Picture of Henry Chen">
+              <h3>HENRY CHEN</h3>
+              <h4>Master Scooper</h4>
+            </article>
+
+            <article>
+              <img src="images/olivia-parks.jpg" alt="Profile Picture of Olivia Parks">
+              <h3>OLIVIA PARKS</h3>
+              <h4>Vegan Dessert Chef</h4>
+            </article>
+
+            <article>
+              <img src="images/elijah-taylor.jpg" alt="Profile Picture of Elijah Taylor">
+              <h3>ELIJAH TAYLOR</h3>
+              <h4>Flavour Innovator</h4>
+            </article>
+
+          </div>
+      </div>
+    </section>
+  </main>
+
+<footer role="contentinfo">
 
   <div class="wrapper">
-    <div class="meet-our-team">
-
-      <h2>Meet Our Team</h2>
-
-        <p class="team-intro">We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
- 
-        
-        <!-- Display the image: sophia-lee.jpg -->
-    <div class="teamgrid">
-      <article>
-        <img src="images/sophia-lee.jpg" alt="Picture of Sophia Lee">
-        <h3>Sophia Lee</h3>
-        <p>Founder & Flavour Guru</p>
-      </article>
-
-        <!-- Display the image: henry-chen.jpg -->
-
-      <article>
-        <img src="images/henry-chen.jpg" alt="Picture of Henry Chen">
-        <h3>Henry Chen</h3>
-        <p>Master Scooper</p>
-      </article>
-   
-        <!-- Display the image: olivia-parks.jpg -->
-
-      <article>
-        <img src="images/olivia-parks.jpg" alt="Picture of Olivia Parks">
-        <h3>Olivia Parks</h3>
-        <p>Vegan Dessert Chef</p>
-      </article>     
-        
-        <!-- Display the image: elijah-taylor.jpg -->
-
-      <article>
-        <img src="images/elijah-taylor.jpg" alt="Picture of Elijah Taylor">
-        <h3>Elijah Taylor</h3>
-        <p>Flavour Innovator</p>
-      </article> 
-
-    </div>
+   <small> All rights reserved © 2023 Scoopalicious</small>
   </div>
- </main> 
 
-  <footer role="contentinfo">
-    <small>All rights reserved © 2023 Scoopalicious</small>
-  </footer>
-
+</footer>
 </body>
 </html>
